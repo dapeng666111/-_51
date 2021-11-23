@@ -1,4 +1,6 @@
 #include <REGX52.H>
+//用来按钮控制灯的来回移动的
+
 void Delay1ms(int t)		//@12.000MHz
 {
 	unsigned char i, j;
