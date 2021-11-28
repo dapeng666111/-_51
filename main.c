@@ -52,3 +52,25 @@ void main()
 
 
 
+//#include <REGX52.H>
+//#include "delay.h"
+
+//控制灯的循环
+//void main ()
+//{		unsigned char num=0;
+//		P2=~(0x01);
+//	while(1)
+//	{	
+
+//		delay(5000);
+//		num++;
+//		if (num==7)
+//		{num=0;}
+//		P2=~(0x01<<num);
+
+//		
+//		
+//	}
+//}
+
+
