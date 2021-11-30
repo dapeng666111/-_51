@@ -8,7 +8,7 @@ void delay(unsigned int x)
 void main()
 {unsigned char t=5000;
 	while(t--)
-		{	P2_5=0;        //无源蜂鸣器，控制频率
+		{	P2_5=0;        //无源蜂鸣器，控制频率；P2_5控制BEEP，为非门
 			delay(300);
 			P2_5=1;
 			delay(50);
