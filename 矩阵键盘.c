@@ -23,8 +23,8 @@ void nixie(unsigned char led_locatin,num)
 				}
 	//数字显示
 					P0=a[num];
-					delay(2);
-					P0=0x00;
+					#delay(2);
+					#P0=0x00;
 		
 }
 
@@ -66,9 +66,8 @@ void main()
 	while(1)
 	{	num=matrix();
 		if (num)
-			{a=num;
-				while(1)
-				{nixie(0,a);}
+			{
+			nixie(0,a);
 			}
 		
 	}
