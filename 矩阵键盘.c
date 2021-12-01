@@ -62,10 +62,15 @@ unsigned char matrix()             //矩阵键盘读取
 
 void main()
 {	unsigned char num=0;
+	unsigned char a=0;
 	while(1)
 	{	num=matrix();
 		if (num)
-				{nixie(0,num);}
+			{a=num;
+				while(1)
+				{nixie(0,a);}
+			}
+		
 	}
 
 	
